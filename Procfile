@@ -1,1 +1,1 @@
-web: gunicorn excelproject.wsgi --log-file -
+web: gunicorn excelproject.wsgi:application --log-file -
