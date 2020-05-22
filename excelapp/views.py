@@ -8,7 +8,7 @@ from django.shortcuts import render
 
 
 # Create your views here.
-from pandas import io
+
 
 
 def about(request):
