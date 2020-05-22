@@ -14,6 +14,7 @@ from django.shortcuts import render
 def about(request):
     return HttpResponse('<h1>Blog About hello hello</h1>')
 
+
 def loading(request):
     template = 'loader.html'
     return render(request, template)
