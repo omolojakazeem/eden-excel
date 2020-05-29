@@ -20,7 +20,7 @@ from django.views.generic.base import TemplateView
 
 
 urlpatterns = [
-    path('^$', admin.site.urls),
+    #path('^$', admin.site.urls),
     path('admin/', admin.site.urls),
     path('about/', include('excelapp.urls')),
 ]
